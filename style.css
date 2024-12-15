@@ -1,0 +1,106 @@
+body{
+    padding-block: 2rem;
+    background-color: #b8abb9;
+    color: black;
+}
+.main{
+        width: 30%;
+        margin: 0 auto;
+        padding:1.5rem;
+        padding-bottom: 3rem;
+        outline: 1rem solid #78aec3ab;
+        border-radius: 0.5rem;
+        background-color: #edecec;
+        display: flex;
+        justify-content: flex-start;
+        align-items: self-start;
+        flex-direction: column;
+}
+.main .box{
+    margin: 0 auto;
+}
+.main h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.main .color-box{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    outline: 5px solid #000000ab;
+    border-radius: 50%;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex .start{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-inline: 1rem;
+    padding-block: 0.3rem;
+    padding-inline: 1.4rem;
+    border-radius: 0.5rem;
+    background-color: green;
+    color: white;
+    border: none;
+}
+.flex .stop{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-inline: 1rem;
+    padding-block: 0.3rem;
+    padding-inline: 1.4rem;
+    border-radius: 0.5rem;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .main{
+        width: 40%;
+        margin: 0 auto;
+        padding:1.5rem;
+        padding-bottom: 3rem;
+        outline: 1rem solid #78aec3ab;
+        border-radius: 0.5rem;
+        background-color: #edecec;
+        display: flex;
+        justify-content: flex-start;
+        align-items: self-start;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main{
+        width: 80%;
+        margin: 0 auto;
+        padding:1.5rem;
+        padding-bottom: 3rem;
+        outline: 1rem solid #78aec3ab;
+        border-radius: 0.5rem;
+        background-color: #edecec;
+        display: flex;
+        justify-content: flex-start;
+        align-items: self-start;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 425px) {
+    .main h1{
+        width: 100%;
+        font-size: 1.8rem;
+        font-weight: 700;
+        font-family: sans-serif;
+        text-align: center;
+        color: black;
+    }
+}
